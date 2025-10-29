@@ -11,6 +11,7 @@ body{
    font-family: 'Poppins', sans-serif;
    background: #fff;
    
+   
 
 }
 form{
@@ -26,6 +27,7 @@ form{
     color: black;
     animation: iniciar 1.6s ease-out;
     pointer-events: all;
+    
      
 }
 h2{
@@ -148,7 +150,30 @@ footer{
    bottom: 0;
     text-align: center;
     font-size: 22px;
-
-
 }
+.container{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+ .logo-image img{
+width: 50px;
+height: auto;
 
+ }
+ .container2{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+ }
+ .lateral-image{
+    width: 500px;
+    height: auto;
+ }
+ .lateral-image img{
+    width: 31rem;
+    height: 20rem;
+    margin-left: 30%;
+    margin-top: 10%;
+ }
+ 
